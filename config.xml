@@ -1,0 +1,8 @@
+<spi name="decoupled-authn">
+    <default-provider>delegate-decoupled-authn</default-provider>
+    <provider name="my-decoupled-http-authn-channel" enabled="true">
+        <properties>
+            <property name="decoupledAuthnRequestUri" value="http://localhost:8888/request-decoupled-authentication"/>
+        </properties>
+    </provider>
+</spi>
